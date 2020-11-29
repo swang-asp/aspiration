@@ -3,7 +3,7 @@
   Feature:  Google Search
 
     Scenario:  Do a google search for ducks and verify search results
-               are returned and each result contains ducks.
+               are returned and each result contains duck.
 
       Given I search for "ducks" on google.com
       Then I should find search results for "ducks"
