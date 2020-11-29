@@ -2,7 +2,7 @@
 
   Feature:  JSONPlaceHolder
 
-    Scenario Outline:  Verify a GET for /posts endpoints returns 100 posts.
+    Scenario Outline:  Verify a GET for /posts endpoint returns 100 posts.
 
       When a GET is issued for "/posts" to JSONPlacerHolder
       Then the last response code should be 200
