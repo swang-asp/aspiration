@@ -1,0 +1,3 @@
+<% std_opts = "--format pretty --strict --publish-quiet" %>
+default: <%= std_opts %>
+headless: <%= std_opts %> HEADLESS=true

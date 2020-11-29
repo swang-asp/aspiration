@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'cucumber'
+gem 'rspec'
+gem 'page-object'
+gem 'httparty'
+gem 'headless'
+gem 'json_spec'
+gem 'selenium-webdriver'
+gem 'watir'
